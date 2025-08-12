@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="677.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BookingInterfaceController">
+   <children>
+      <DatePicker layoutX="276.0" layoutY="226.0" />
+      <RadioButton layoutX="231.0" layoutY="339.0" mnemonicParsing="false" text="Single">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></RadioButton>
+      <Spinner layoutX="276.0" layoutY="434.0" prefHeight="27.0" prefWidth="175.0" />
+      <Label layoutX="107.0" layoutY="225.0" text="Check-in Date ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="276.0" layoutY="275.0" />
+      <Label layoutX="107.0" layoutY="331.0" text="Room Type">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="231.0" layoutY="364.0" mnemonicParsing="false" text="Double">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></RadioButton>
+      <Label layoutX="107.0" layoutY="434.0" prefHeight="27.0" prefWidth="119.0" text="Guest Count">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="266.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../assests/hotel-banner.63885da4032201.67905415.png" />
+      </ImageView>
+      <Button layoutX="419.0" layoutY="499.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="119.0" style="-fx-background-color: blue; -fx-background-radius: 30px;" text="Book Now" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="419.0" layoutY="555.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="119.0" style="-fx-background-color: red; -fx-background-radius: 30px;" text="Clear Form" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="83.0" layoutY="496.0" opacity="0.68" prefHeight="148.0" prefWidth="286.0" style="-fx-background-color: E8F9FF; -fx-background-radius: 30px;" />
+      <Text layoutX="113.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Cost" wrappingWidth="124.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="113.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tax" wrappingWidth="37.10040283203125">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="113.0" layoutY="614.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Amount">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Label layoutX="107.0" layoutY="279.0" prefHeight="27.0" prefWidth="136.0" text="Check-out Date">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="232.0" layoutY="389.0" mnemonicParsing="false" text="Suite">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </RadioButton>
+      <Separator prefWidth="200.0" />
+      <Separator layoutX="104.0" layoutY="584.0" prefHeight="3.0" prefWidth="248.0" />
+      <Text layoutX="289.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="80$">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="289.0" layoutY="572.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15$">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="289.0" layoutY="613.0" strokeType="OUTSIDE" strokeWidth="0.0" text="95$">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
